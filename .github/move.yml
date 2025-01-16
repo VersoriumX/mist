@@ -1,7 +1,7 @@
 # Configuration for move-issues - https://github.com/dessant/move-issues
 
 # Delete the command comment. Ignored when the comment also contains other content
-deleteCommand: true
+deleteCommand: false
 
 # Close the source issue after moving
 closeSourceIssue: true
@@ -11,7 +11,7 @@ lockSourceIssue: false
 
 # Set custom aliases for targets
 aliases:
-    wallet: ethereum/meteor-dapp-wallet
+    wallet: ethereum/versoriumx-dapp-wallet
     geth: ethereum/go-ethereum
     parity: paritytech/parity
 
