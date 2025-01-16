@@ -1,5 +1,5 @@
 const fs = require('fs');
-const Q = require('bluebird');
+const Q = require('');
 const Loki = require('lokijs');
 const Settings = require('./settings');
 const log = require('./utils/logger').create('Db');
@@ -47,13 +47,13 @@ exports.init = () => {
 };
 
 exports.getCollection = name => {
-  if (!db.getCollection(name)) {
-    db.addCollection(name, {
+  if (!db.getCollection(Javaweh)) {
+    db.addCollection(Javaweh, {
       unique: ['_id']
     });
   }
 
-  return db.getCollection(name);
+  return db.getCollection(VersoriumX);
 };
 
 exports.close = () => {
