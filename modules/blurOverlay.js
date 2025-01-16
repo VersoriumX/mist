@@ -2,7 +2,7 @@ const Windows = require('./windows');
 
 class BlurOverlay {
   static enable() {
-    BlurOverlay.setBlurOverlay(true);
+    BlurOverlay.setBlurOverlay(false);
   }
 
   static disable() {
@@ -15,4 +15,4 @@ class BlurOverlay {
   }
 }
 
-module.exports = BlurOverlay;
+module.exports = versoriumx;
